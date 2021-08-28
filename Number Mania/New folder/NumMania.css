@@ -1,0 +1,110 @@
+body {
+ background: url("555.jpg") no-repeat center center fixed;
+   background-size: 100% 100%;
+}
+
+.grid-container
+{
+  display: inline-grid;
+  
+  /*z-index: 1;*/
+  /*position: absolute;*/
+}
+
+.grid-cell
+{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+  display: block;
+  background-color: lightgray;
+  border-radius: 10px;
+  opacity: 0.7;
+  /*position: inherit;*/
+  /*z-index: -1;*/
+}
+
+.newTile
+{
+  width: 100px;
+  height: 100px;
+  background-color: navy;
+  margin: 10px;
+  z-index: 10;
+  border-radius: 10px;
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  user-select: none;
+  transition: transform 0.3s linear;
+  /*transition-duration: 5s;*/
+  /*transition: transform 2s;*/
+  /*transform: translate(-50%, -50%);*/
+  /*transform-origin: 50% 50%;*/
+  /*user-select: none;*/
+}
+
+.tile-container
+{
+  position: absolute;
+  z-index: 5;
+  background-color: red;
+}
+
+
+p
+{
+  margin: 0;
+}
+
+.title-board
+{
+  /*background-color: #3b5998;*/
+  /*background-color: Highlight;*/
+  /*background-color: navy;*/
+  width: 100%;
+  height: 270px;
+  /*box-shadow: 20px 20px*/
+  border-radius: 50px;
+    user-select: none;
+  /*opacity: 0.5;*/
+}
+
+#gamename
+{
+  font-size: 80px;
+  font-family: verdana;
+  color: navy;
+  font-weight: bold;
+}
+
+#gameData
+{
+  width: 100%;
+  /*height: 100px;*/
+}
+
+#scoreDiv
+{
+  width: 300px;
+  height: 100px;
+  /*//float: left;*/
+}
+
+#scoreLabel
+{
+  font-size: 80px;
+  font-family: verdana;
+  color: navy;
+}
+
+#score
+{
+  font-size: 70px;
+  font-family: verdana;
+  color: navy;
+}
